@@ -53,6 +53,8 @@ const Input: React.FC<InputProps> = ({
         ref={inputRef}
         {...remainingProps}
       />
+
+      {error}
     </Container>
   );
 };
